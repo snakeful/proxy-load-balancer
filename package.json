@@ -1,0 +1,29 @@
+{
+  "name": "proxy-load-balancer",
+  "version": "1.0.0",
+  "description": "Proxy load balancer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakeful/proxy-load-balancer.git"
+  },
+  "keywords": [
+    "dygsys",
+    "proxy",
+    "load",
+    "balancer"
+  ],
+  "author": "snakeful",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
+    "http-proxy": "^1.16.2"
+  }
+}
